@@ -7,7 +7,7 @@ import "./index.css";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     {/* ✅ Wrap App inside BrowserRouter */}
-    <BrowserRouter basename="/TripBuddy-main-">
+    <BrowserRouter basename="/TripBuddy-main">
       <App />
     </BrowserRouter>
   </React.StrictMode>
